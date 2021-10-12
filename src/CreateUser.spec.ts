@@ -11,6 +11,6 @@ describe('CreateUser', () => {
       password: '123456'
     })
 
-    expect(user).toHaveProperty('uuid')
+    expect(user).toHaveProperty('id')
   })
 })
